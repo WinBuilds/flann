@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.779
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "FLANNExample", "FLANNExample.vcxproj", "{F52F9B81-22B8-46E4-A8BF-8F44FB844E70}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "FLANNLib", "FLANNLib.vcxproj", "{AD833690-010E-4DE1-8935-B28DD6EF00EE}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "FLANNDll", "FLANNDll.vcxproj", "{379D990C-D3C6-4BE9-8449-9A659CABEA0D}"
+	ProjectSection(ProjectDependencies) = postProject
+		{AD833690-010E-4DE1-8935-B28DD6EF00EE} = {AD833690-010E-4DE1-8935-B28DD6EF00EE}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "FLANNCppLib", "FLANNCppLib.vcxproj", "{5C0FB69C-6BDB-458F-9AD5-4C99F50B1B31}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "FLANNCppDll", "FLANNCppDll.vcxproj", "{448237E0-EA55-4C9D-BE37-C4CD564EDFCE}"
+	ProjectSection(ProjectDependencies) = postProject
+		{5C0FB69C-6BDB-458F-9AD5-4C99F50B1B31} = {5C0FB69C-6BDB-458F-9AD5-4C99F50B1B31}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F52F9B81-22B8-46E4-A8BF-8F44FB844E70}.Debug|x64.ActiveCfg = Debug|x64
+		{F52F9B81-22B8-46E4-A8BF-8F44FB844E70}.Debug|x64.Build.0 = Debug|x64
+		{F52F9B81-22B8-46E4-A8BF-8F44FB844E70}.Release|x64.ActiveCfg = Release|x64
+		{F52F9B81-22B8-46E4-A8BF-8F44FB844E70}.Release|x64.Build.0 = Release|x64
+		{AD833690-010E-4DE1-8935-B28DD6EF00EE}.Debug|x64.ActiveCfg = Debug|x64
+		{AD833690-010E-4DE1-8935-B28DD6EF00EE}.Debug|x64.Build.0 = Debug|x64
+		{AD833690-010E-4DE1-8935-B28DD6EF00EE}.Release|x64.ActiveCfg = Release|x64
+		{AD833690-010E-4DE1-8935-B28DD6EF00EE}.Release|x64.Build.0 = Release|x64
+		{379D990C-D3C6-4BE9-8449-9A659CABEA0D}.Debug|x64.ActiveCfg = Debug|x64
+		{379D990C-D3C6-4BE9-8449-9A659CABEA0D}.Debug|x64.Build.0 = Debug|x64
+		{379D990C-D3C6-4BE9-8449-9A659CABEA0D}.Release|x64.ActiveCfg = Release|x64
+		{379D990C-D3C6-4BE9-8449-9A659CABEA0D}.Release|x64.Build.0 = Release|x64
+		{5C0FB69C-6BDB-458F-9AD5-4C99F50B1B31}.Debug|x64.ActiveCfg = Debug|x64
+		{5C0FB69C-6BDB-458F-9AD5-4C99F50B1B31}.Debug|x64.Build.0 = Debug|x64
+		{5C0FB69C-6BDB-458F-9AD5-4C99F50B1B31}.Release|x64.ActiveCfg = Release|x64
+		{5C0FB69C-6BDB-458F-9AD5-4C99F50B1B31}.Release|x64.Build.0 = Release|x64
+		{448237E0-EA55-4C9D-BE37-C4CD564EDFCE}.Debug|x64.ActiveCfg = Debug|x64
+		{448237E0-EA55-4C9D-BE37-C4CD564EDFCE}.Debug|x64.Build.0 = Debug|x64
+		{448237E0-EA55-4C9D-BE37-C4CD564EDFCE}.Release|x64.ActiveCfg = Release|x64
+		{448237E0-EA55-4C9D-BE37-C4CD564EDFCE}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B17C9CE1-8E98-4CAE-A375-D884FE88C1E5}
+	EndGlobalSection
+EndGlobal
